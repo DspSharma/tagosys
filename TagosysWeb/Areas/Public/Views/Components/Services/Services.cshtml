@@ -1,0 +1,37 @@
+﻿@using TagosysWeb.Core.DTO.DtoOutput;
+@{
+
+    var serviceData = ViewData["aboutData"] as List<PostOutput>;
+    var serviceList = serviceData?.Where(post => post.PageName == "Service").ToList();
+
+
+}
+@if (serviceList != null)
+{
+    <div class="row">
+        @foreach (var service in serviceList)
+        {
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 img-h2 padding-bottom d-flex">
+                <div class="box-bg box-bg-shadow">
+                    <img class="" src="@service.LocalImage">
+                    <div class="box-about">
+                        <h3 class="c-heading-in">@service.Tittle</h3>
+                        <div class="c-paragraph">
+                           <p>@service.ShortDescription</p>
+                        </div>
+                        <div class="c-group">
+                            <a href="~/Public/Post/postDescription/@service.Id"
+                               class="c-call-to-action1 c-glyph1">
+                                <span>
+                                    Read more <i aria-hidden="true" class="fa fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    </div>
+}

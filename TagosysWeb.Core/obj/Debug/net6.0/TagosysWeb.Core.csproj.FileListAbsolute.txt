@@ -1,0 +1,15 @@
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\bin\Debug\net6.0\TagosysWeb.Core.deps.json
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\bin\Debug\net6.0\TagosysWeb.Core.dll
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\bin\Debug\net6.0\TagosysWeb.Core.pdb
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\bin\Debug\net6.0\TagosysWeb.Data.dll
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\bin\Debug\net6.0\TagosysWeb.Data.pdb
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.csproj.AssemblyReference.cache
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.AssemblyInfoInputs.cache
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.AssemblyInfo.cs
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.csproj.CoreCompileInputs.cache
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.csproj.CopyComplete
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.dll
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\refint\TagosysWeb.Core.dll
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\TagosysWeb.Core.pdb
+E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb.Core\obj\Debug\net6.0\ref\TagosysWeb.Core.dll

@@ -1,0 +1,96 @@
+﻿@using TagosysWeb.Core.DTO.DtoOutput;
+@{
+    var project = ViewData["projectData"] as List<ProjectOutput>;
+
+}
+
+
+
+
+<link rel="stylesheet" href="~/css/owl-slider-css/owl.carousel.min.css" />
+<link rel="stylesheet" href="~/css/owl-slider-css/owl.theme.default.min.css" />
+
+<script src="~/css/owl-slider-css/js/highlight.js"> </script>
+<script src="~/css/owl-slider-css/js/jquery.min.js"> </script>
+<script src="~/css/owl-slider-css/js/owl.carousel.min.js"> </script>
+
+
+<div class="bg-slaider">
+    <div class="container-fluid">
+        <div id="forcecentered" class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage"
+                     style="transform: translate3d(-1545px, 0px, 0px); transition: all 0.25s ease 0s; width: 4636px;">
+
+
+                    @foreach (var projectData in project)
+                    {
+                        <div class="owl-item active" style="width: 386.333px;">
+                            <div class="item">
+                                <div class="testimonial-item">
+                                    <a href="@projectData.ProjectUrl" target="_blank" rel="noopener noreferrer">
+                                        <div class="onpageslider-logo-box row">
+                                            <div class="col-xl-3 col-md-3 col-3">  <div class="onpageslider-img">  <img src="@projectData.LocalImage" alt="" class="testimonial-img"> </div></div>
+                                            <div class="col-xl-9 col-md-9 col-9">  <h3>@projectData.ProjectName</h3></div>
+
+                                        </div>
+                                    </a>
+                                    <p>
+                                        @projectData.Description
+                                        <a href="@projectData.ProjectUrl" target="_blank" rel="noopener noreferrer">Click here</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+
+
+
+                </div>
+            </div>
+            <div class="owl-nav disabled">
+                <button type="button" role="presentation" class="owl-prev">
+                    <span aria-label="Previous">‹</span>
+                </button><button type="button" role="presentation"
+                                 class="owl-next">
+                    <span aria-label="Next">›</span>
+                </button>
+            </div>
+            <div class="owl-dots disabled"></div>
+        </div>
+    </div>
+</div>
+<script>
+    jQuery("#forcecentered").owlCarousel({
+        autoplay: true,
+        lazyLoad: true,
+        loop: true,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        center: false,
+        responsiveClass: true,
+
+        margin: 20,
+
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 2
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 3
+            }
+        }
+    });
+</script>

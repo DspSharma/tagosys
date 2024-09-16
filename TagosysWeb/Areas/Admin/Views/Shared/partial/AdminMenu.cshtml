@@ -1,0 +1,51 @@
+﻿@{
+    var controller = ViewContext.RouteData.Values["Controller"].ToString();
+    var action = ViewContext.RouteData.Values["Action"].ToString();
+    string route = $"{controller}-{action}";
+}
+
+
+@*@route;*@
+<ul class="sidebar-menu" data-widget="tree">
+    <li class="header">HEADER</li>
+    <li id="SystemSetting-AddUpdateSystemForm"><a href="~/Admin/SystemSetting/AddUpdateSystemForm"><i class="fa fa-cog"></i><span>SystemSetting</span></a></li>
+    <li id="Auth-UserList"><a href="~/Admin/Auth/UserList"><i class="fa fa-user"></i><span>User</span></a></li>
+    <li id="Project-ProjectList"><a href="~/Admin/Project/ProjectList"><i class="fa fa-user"></i><span>Project</span></a></li>
+    <li id="Team-AddUpdateTeamForm"><a href="~/Admin/Team/teamList"><i class="fa fa-user"></i><span>Team</span></a></li>
+    <li id="Contact-contactList"><a href="~/Admin/Contact/contactList"><i class="fa fa-phone"></i><span>Contact</span></a></li>
+    <li id="Client-clientList"><a href="~/Admin/Client/clientList"><i class="fa fa-users"></i><span>Client</span></a></li>
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-credit-card"></i> <span>Pages</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li id="FeesStructures-annualFeesList"><a href="~/Admin/Page/pageList">Pages</a></li>
+            <li id="FeesStructures-annualFeesList"><a href="~/Admin/Post/postList">Post</a></li>
+            <li id="FeesStructures-annualFeesList"><a href="~/Admin/PostDescription/PostDescriptionList">PostDescription</a></li>
+
+        </ul>
+    </li>
+
+
+    <li id="Team-AddUpdateTeamForm"><a href="~/Admin/Auth/Logout"><i class="fa fa-sign-out"></i><span>Logout</span></a></li>
+
+
+</ul>
+
+<script>
+
+    $(document).ready(function () {
+        $("#@route").addClass('active');
+    });
+
+    // Handle menu item clicks
+    $('ul.sidebar-menu li').click(function () {
+        $('ul.sidebar-menu li').removeClass('active');
+        $(this).addClass('active');
+    });
+
+
+</script>

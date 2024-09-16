@@ -1,0 +1,115 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.ClientOutput;
+
+<section class="content-header">
+    <div>
+        <h1>
+            List of Client
+            <a class="btn btn-primary" href="~/Admin/Client/AddUpdateClientForm" style="float:right;"> Add Client</a>
+        </h1>
+    </div>
+</section>
+
+<style>
+    .scrollable-column {
+        max-height: 100px; /* Adjust the height as needed */
+        overflow-y: auto; /* Add vertical scrollbar if content exceeds max-height */
+        word-wrap: break-word; /* Allow long words to break and wrap onto the next line */
+    }
+</style>
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Client</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table id="About" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Country </th>
+                                    <th>Tittle</th>
+                                    <th>Description</th>
+                                    <th>Image </th>
+                                    <th>Rating</th>
+                                    <th>IsActive</th>
+                                    <th>CreatedAt</th>
+                                    <th>UpdatedAt </th>
+                                    <th>Action </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var data in TempData["clientData"] as List<ClientOutput>)
+                                {
+                                    <tr>
+                                        <td>@data.Id</td>
+                                        <td>@data.Name</td>
+                                        <td>@data.Country</td>
+                                        <td>@data.Tittle</td>
+                                        <td>
+                                            <div class="scrollable-column">
+                                                @data.Description
+                                            </div>
+                                        </td>
+                                        @*<td>@data.Description</td>*@
+                                        <td>
+                                            <img src="@data.LocalImage"
+                                                 onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@data?.LocalImage'; }"
+                                                 style="width:20%;"
+                                                 alt="User Image"
+                                                 class="Td-image">
+                                        </td>
+                                        <td>@data.Rating</td>
+                                        <td>
+                                            <select onchange="updateClientStatus(@data.Id)">
+                                                @if (data.IsActive == true)
+                                                {
+                                                    <option value="Active" selected>Active</option>
+                                                    <option value="inActive">InActive</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Active">Active</option>
+                                                    <option value="inActive" selected>InActive</option>
+                                                }
+                                            </select>
+                                        </td>
+
+                                        <td>@data.CreatedAt</td>
+                                        <td>@data.UpdatedAt</td>
+                                        <td>
+                                            <a class="btn btn-primary" href="~/Admin/Client/AddUpdateClientForm/@data.Id">Edit/View</a>
+
+                                            <a class="btn btn-danger" href="~/Admin/Client/clientDeleteById/@data.Id"><i class="fa fa-trash"> </i> Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+    function updateClientStatus(Id) {
+        window.location.href = "/../../Admin/Client/ActiveInActive/" + Id
+    }
+</script>
+@await Component.InvokeAsync("Toaster")

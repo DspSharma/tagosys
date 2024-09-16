@@ -1,0 +1,109 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.TeamOutput;
+
+<section class="content-header">
+    <div>
+        <h1>
+            List of Team
+            <a class="btn btn-primary" href="~/Admin/Team/AddUpdateTeamForm/" style="float:right;"> Add Team</a>
+        </h1>
+    </div>
+</section>
+
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Team</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table id="About" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Image </th>
+                                    <th>ProfessionField </th>
+                                    <th>Designation</th>
+                                    <th>Dob</th>
+                                    <th>City</th>
+                                    <th>State</th>
+                                    <th>Address</th>
+                                    <th>Email</th>
+                                    <th>Mobile</th>
+                                    <th>IsActive</th>
+                                    <th>CreatedAt</th>
+                                    <th>UpdatedAt </th>
+                                    <th>Action </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var data in ViewData["teamList"] as List<TeamOutput>)
+                                {
+                                    <tr>
+                                        <td>@data.Id</td>
+                                        <td>@data.Name</td>
+                                        <td>
+                                            <img src="@data.LocalImage"
+                                                 onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@data?.LocalImage'; }"
+                                                 style="width:100%;height:60px;"
+                                                 alt="User Image"
+                                                 class="Td-image">
+                                        </td>
+                                        <td>@data.ProfessionField</td>
+                                        <td>@data.Designation</td>
+                                        <td>@data.Dob</td>
+                                        <td>@data.City</td>
+                                        <td>@data.State</td>
+                                        <td>@data.Address</td>
+                                        <td>@data.Email</td>
+                                        <td>@data.Mobile</td>
+                                        <td>
+                                            <select onchange="updateTeamStatus(@data.Id)">
+                                                @if (data.IsActive == true)
+                                                {
+                                                    <option value="Active" selected>Active</option>
+                                                    <option value="inActive">InActive</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Active">Active</option>
+                                                    <option value="inActive" selected>InActive</option>
+                                                }
+                                            </select>
+                                        </td>
+
+                                        <td>@data.CreatedAt</td>
+                                        <td>@data.UpdatedAt</td>
+                                        <td>
+                                            <a class="btn btn-primary" href="~/Admin/Team/AddUpdateTeamForm/@data.Id">Edit/View</a>
+
+                                            <a class="btn btn-danger" href="~/Admin/Team/teamDeleteById/@data.Id"><i class="fa fa-trash"> </i> Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+@await Component.InvokeAsync("Toaster")
+<script>
+    function updateTeamStatus(Id) {
+        window.location.href = "/../../Admin/Team/ActiveInActive/" + Id
+    }
+</script>

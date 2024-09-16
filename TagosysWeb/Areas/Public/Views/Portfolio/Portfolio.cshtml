@@ -1,0 +1,94 @@
+﻿@{
+    Layout = "~/Areas/Public/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/portfolio.css" />
+<section class="banner">
+    <img src="~/assets/site-images/Portfolio-images/24.jpg" class="w-100">
+    <div class="text-banner">
+        <h1 class="c-heading-2 f-lean x-hidden-focus">Tagosys</h1>
+        <p class="c-paragraph-1">
+            Delivering Innovative Robust and Result Oriented Business IT
+            Solutions for Medium  Enterprises.
+        </p>
+    </div>
+    <div class="banner-2"></div>
+</section>
+
+
+<div class="talk_consult about_banner_bottom">
+    <div class="container">
+        <div class="talk_consult_bg">
+            <div class="row">
+                <div class="col-sm-4 py-3 py-sm-0 portfolio-500">
+                    <p><span>140+</span> Valuable Clients</p>
+                </div>
+
+                <div class="col-sm-4 d-flex flex-wrap justify-content-sm-end justify-content-center py-3 py-sm-0">
+                    <div>
+                        <p><span>70+</span> iPhone &amp; Android Apps</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="container-fluid Windows">
+    <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+            <img class="large-icon1"
+                 src="~/assets/site-images/home-image/seo-icon.png">
+            <div>Dynamic CMS</div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+            <img class="large-icon1"
+                 src="~/assets/site-images/home-image/web-design-icon.png">
+            <div>Web Development</div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+            <img class="large-icon1"
+                 src="~/assets/site-images/home-image/web-development-icon.png">
+            <div>App Development</div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+            <img class="large-icon1"
+                 src="~/assets/site-images/home-image/application-development-icon.png">
+            <div>Maintenance</div>
+        </div>
+        <!---->
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+    </div>
+</section>
+
+
+<section class="product-slider-section-4">
+    <div class="container-fluid">
+        <div id="productslider-4" data-ride="carousel" class="carousel slide">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-12 col col-12">
+                    <div class="title">
+                        <h1 class="titleh1">On - demand <span class="span-color"> Solutions </span></h1>
+                        <p>Serving startups with on-demand mobile application development... </p>
+                    </div>
+                    <div class="row CA">
+
+
+                        @await Component.InvokeAsync("portfolio")
+
+
+
+                        <!---->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@await Component.InvokeAsync("Project")
+
+@*@Html.Partial("Shared/PartialView/_Clientslideronpage")*@

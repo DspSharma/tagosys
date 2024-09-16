@@ -1,0 +1,17 @@
+﻿@*@page
+@model Web.Pages.TeamModel
+@{
+}
+
+<section class="breadcrumbs">
+    <div class="container">
+        <ol>
+            <li><a href="">Home</a></li>
+            <li>Team</li>
+        </ol>
+    </div>
+</section>
+
+@await Component.InvokeAsync("Team")
+
+@await Component.InvokeAsync("Project")*@

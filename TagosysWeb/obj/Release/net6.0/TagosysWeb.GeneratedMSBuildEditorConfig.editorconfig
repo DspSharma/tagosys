@@ -1,0 +1,261 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TagosysWeb
+build_property.RootNamespace = TagosysWeb
+build_property.ProjectDir = E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\dotnet\tagosyswebsite\TagosysWeb\TagosysWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Auth/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Client/AddUpdateClientForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2xpZW50XEFkZFVwZGF0ZUNsaWVudEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Client/clientList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2xpZW50XGNsaWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Components/ImageUploadPopup/ImageUploadPopup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcG9uZW50c1xJbWFnZVVwbG9hZFBvcHVwXEltYWdlVXBsb2FkUG9wdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Contact/contactList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxjb250YWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Page/AddUpdatePageForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZVxBZGRVcGRhdGVQYWdlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Page/pageList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZVxwYWdlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Project/AddUpdateProjectForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvamVjdFxBZGRVcGRhdGVQcm9qZWN0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Project/ProjectList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvamVjdFxQcm9qZWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Shared/Layout/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFxfQXV0aExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dFxfTGF5b3V0QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Shared/partial/AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXHBhcnRpYWxcQWRtaW5NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/SystemSetting/AddUpdateSystemForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3lzdGVtU2V0dGluZ1xBZGRVcGRhdGVTeXN0ZW1Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Team/AddUpdateTeamForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbVxBZGRVcGRhdGVUZWFtRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Admin/Views/Team/teamList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbVx0ZWFtTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Areas/Public/Views/Home/home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVibGljXFZpZXdzXEhvbWVcaG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Components/Client/Client.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDbGllbnRcQ2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Components/portfolio/portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xwb3J0Zm9saW9ccG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Components/Project/Project.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQcm9qZWN0XFByb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Components/Team/Team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUZWFtXFRlYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Components/Toaster/Toaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUb2FzdGVyXFRvYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/design-development.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVzaWduLWRldmVsb3BtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/digital-marketing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGlnaXRhbC1tYXJrZXRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Mobile-app.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9iaWxlLWFwcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/mobile-ios-app.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbW9iaWxlLWlvcy1hcHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/RefundPolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmdW5kUG9saWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/responsive-web-design-services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVzcG9uc2l2ZS13ZWItZGVzaWduLXNlcnZpY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Server-Management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmVyLU1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Cloud-Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcQ2xvdWQtU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Digital-Marketing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcRGlnaXRhbC1NYXJrZXRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/E-Commerce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcRS1Db21tZXJjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Logo-Design.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcTG9nby1EZXNpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Mobile-App-Development.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcTW9iaWxlLUFwcC1EZXZlbG9wbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/PHP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcUEhQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/seo-Optimization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcc2VvLU9wdGltaXphdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Website-Designing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcV2Vic2l0ZS1EZXNpZ25pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/services/Website-Development.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcV2Vic2l0ZS1EZXZlbG9wbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/partialview/AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXHBhcnRpYWx2aWV3XEFkbWluTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/partialview/_Clientslideronpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXHBhcnRpYWx2aWV3XF9DbGllbnRzbGlkZXJvbnBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/partialview/_ClientSpeaksslider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXHBhcnRpYWx2aWV3XF9DbGllbnRTcGVha3NzbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/partialview/_contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXHBhcnRpYWx2aWV3XF9jb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/partialview/_HomePageBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXHBhcnRpYWx2aWV3XF9Ib21lUGFnZUJhbm5lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/_adminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9hZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/Terms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/unique-and-impresive-designs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdW5pcXVlLWFuZC1pbXByZXNpdmUtZGVzaWducy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/web-and-mobile-app.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcd2ViLWFuZC1tb2JpbGUtYXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/website-and-api-development.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcd2Vic2l0ZS1hbmQtYXBpLWRldmVsb3BtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnet/tagosyswebsite/TagosysWeb/TagosysWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

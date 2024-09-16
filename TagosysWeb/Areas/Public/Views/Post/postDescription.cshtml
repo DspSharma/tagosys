@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Areas/Public/Views/Shared/_Layout.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+
+@{
+    var postData = ViewData["postData"] as List<PostdescriptionOutput>;
+    var postname = "";
+    if(postData.Count>0)
+    {
+        var post = postData?[0];
+        postname = post.PostName;
+    }
+
+       
+       // var post = postname.PostName;
+    
+
+}
+
+
+<section class="breadcrumbs">
+    <div class="container">
+        <ol>
+            <li><a href="~/Public/Home/index"> Home</a></li>
+           @if(postname != "")
+            {
+                <li>@postname</li>
+            }
+        </ol>
+
+    </div>
+</section>
+
+
+
+<section id="blog" class="blog">
+    <div data-aos="fade-up" class="container">
+        @foreach (var postDescription in postData)
+        {
+            <div class="row leftdiv ng-star-inserted">
+                <div class="entry-img col-12 col-xl-6 col-md-6 odd">
+                    <div class="box-bg-shadow">
+                        <img alt=""
+                             class="tile-img tile-img1" src="@postDescription.LocalImage">
+                    </div>
+                </div>
+                <div class="entry-content col-12 col-xl-6 col-md-6 even">
+                    <div class="new_page">
+                        <span>
+                            <h2 class="entry-title">@postDescription.Tittle</h2>
+                           <p>@postDescription.Description</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+
+    </div>
+</section>
+@await Component.InvokeAsync("Project")

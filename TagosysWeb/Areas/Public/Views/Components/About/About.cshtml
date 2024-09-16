@@ -1,0 +1,40 @@
+﻿@using TagosysWeb.Core.DTO.DtoOutput;
+@{
+
+    var aboutData = ViewData["aboutData"] as List<PostOutput>;
+    var aboutList = aboutData?.Where(post => post.PageName == "about").ToList();
+
+
+}
+
+@if (aboutList != null)
+{
+    <div class="row">
+
+
+        @foreach (var about in aboutList)
+        {
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 padding-bottom d-flex">
+                <div class="box-bg box-bg-shadow">
+                    <img class="" src="@about?.LocalImage">
+                    <div class="box-about">
+                        <h3 class="c-heading-in">@about?.Tittle</h3>
+                        <div class="c-paragraph">
+                            <p>
+                                @about?.ShortDescription
+                            </p>
+                        </div>
+                        <div class="c-group">
+
+                            <a class="c-call-to-action1 c-glyph1" href="~/Public/Post/postDescription/@about.Id">
+                                <span>Read more <i aria-hidden="true" class="fa fa-chevron-right"></i></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+

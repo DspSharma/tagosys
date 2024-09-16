@@ -1,0 +1,12 @@
+﻿@page
+@model TagosysWeb.Pages.postdescriptionModel
+@using TagosysWeb.Core.DTO.DtoOutput;
+@*@{
+    var about = ViewData["postData"] as List<PostdescriptionOutput>;
+    var a = about;
+}*@
+
+
+@*@await Component.InvokeAsync("Postdescription")*@
+@*@await Component.InvokeAsync("Postdescription", new { id = Context.Request.Query["Id"] })*@
+ @await Component.InvokeAsync("Postdescription", new { id = HttpContext.Request.Query["id"] });

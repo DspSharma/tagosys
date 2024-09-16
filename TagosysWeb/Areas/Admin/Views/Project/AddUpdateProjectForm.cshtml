@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.ProjectOutput;
+
+@{
+    var project = ViewData["projectData"] as ProjectOutput;
+    int id = project != null ? project.Id : 0;
+}
+
+
+<section class="content container-fluid">
+    <div class="card">
+        <div class="card-header">
+            @if (id != 0)
+            {
+                <h3 class="card-title">Project Page-Update</h3>
+            }
+            else
+            {
+                <h3 class="card-title">Create New Project</h3>
+            }
+        </div>
+        <form class="card-body" method="post" action="~/Admin/Project/AddUpdateProject" onsubmit="return addUpdateProject()" enctype="multipart/form-data">
+            <input type="hidden" name="Id" value="@project?.Id">
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="name" class="col-form-label col-sm-2">ProjectName</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="projectName" name="ProjectName" placeholder="ProjectName" value="@project?.ProjectName">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label for="tittle" class="col-form-label col-sm-2">Description</label>
+                    <div class="col-sm-10">
+                        <textarea id="description" name="Description" class="form-control" rows="2">@project?.Description</textarea>
+                      @*  <input type="text" class="form-control" id="description" name="Description" placeholder="Description" value="@project?.Description">*@
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+
+                <div class="col-sm-6">
+                    <label for="name" class="col-form-label col-sm-2">ProjectUrl</label>
+                    <div class="col-sm-10">
+                        <input type="url" class="form-control" id="projectUrl" name="ProjectUrl" placeholder="ProjectUrl" value="@project?.ProjectUrl">
+                    </div>
+                </div>
+               
+                <div class="col-sm-6">
+                    <label for="imagefiles" class="col-form-label col-sm-2">Image</label>
+                    <div class="col-sm-10">
+                        <input type="hidden" class="form-control" id="imagefiles" name="Image" placeholder="Image" value="@project?.Image">
+                        @await Component.InvokeAsync("ImageUploadPopup")
+                        <img id="blah" src="@project?.LocalImage" onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@project?.LocalImage'; }" alt="your image" style="height:150px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-info float-left">Save</button>
+            </div>
+        </form>
+    </div>
+</section>
+@await Component.InvokeAsync("Toaster")
+<script>
+    let oldImage = "@project?.Image";
+</script>

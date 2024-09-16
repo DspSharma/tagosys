@@ -1,0 +1,80 @@
+﻿@*@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}*@
+
+@{
+    Layout = "~/Areas/Public/Views/Shared/_Layout.cshtml";
+}
+
+<div class="">
+    @Html.Partial("~/Areas/Public/Views/Shared/PartialView/_HomePageBanner.cshtml")
+
+    <div class="container-fluid">
+
+        <section class="Windows">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="~/assets/site-images/home-image/seo-icon.png">
+                    <div>Dynamic CMS</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="~/assets/site-images/home-image/web-design-icon.png">
+                    <div>Web Development</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="~/assets/site-images/home-image/web-development-icon.png">
+                    <div>App Development</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="~/assets/site-images/home-image/application-development-icon.png">
+                    <div>Maintenance</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+            </div>
+        </section>
+    </div>
+    <div class="">
+        <div class="container-fluid">
+            <section id="about-section" class="Windows img-h2">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 for-work"> <span> About us </span> </div>
+                    <div class="col-xl-12 col-md-12 col-12">
+
+                        @await Component.InvokeAsync("About")
+
+
+
+
+                    </div>
+                </div>
+        </div>
+        </section>
+    </div>
+    @*@await Component.InvokeAsync("About")*@
+</div>
+
+
+@await Component.InvokeAsync("Client")
+
+
+<div class="container-fluid">
+    <section id="Services" class="Windows">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12 for-work"> <span> Services </span> </div>
+            <div class="col-xl-12 col-md-12 col-12 ">
+               
+                @await Component.InvokeAsync("Services")
+
+            </div>
+        </div>
+    </section>
+
+</div>
+@await Component.InvokeAsync("Project")
+
+</div>

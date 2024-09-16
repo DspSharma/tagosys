@@ -1,0 +1,80 @@
+﻿@using TagosysWeb.Core.DTO.DtoOutput;
+@{
+    var clientData = ViewData["clientData"] as List<ClientOutput>;
+
+}
+
+<style>
+    .star-rating {
+        color: gold;
+        font-size: 24px;
+    }
+
+    .star {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .filled {
+        color: gold;
+    }
+</style>
+
+<section id="section2" class="mrz-width Windows">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-12 col-xl-12 for-work titleh1"> <span> Client Speaks </span></div>
+        </div>
+    </div>
+
+    <div id="myCarousel" data-ride="carousel" class="carousel slide carousel-fade">
+        <div class="container-fluid">
+            <div class="carousel-inner">
+                @foreach (var client in clientData)
+                {
+                    int clientRating = int.Parse(client.Rating);
+                    <div class="carousel-item @(client == clientData.First() ? "active" : "")">
+                        <div class="mask flex-center">
+                            <div class="container h-100">
+                                <div class="row align-items-center h-100">
+                                    <div class="col-md-1 col-xl-1 col-lg-1 col-12"></div>
+                                    <div class="col-md-7 col-xl-7 col-lg-7 col-12 order-md-1 order-2">
+                                        <h4>@client.Name - @client.Country</h4>
+                                        @if (clientRating > 0)
+                                        {
+                                            <div class="star-rating">
+                                                @for (int i = 1; i <= clientRating; i++)
+                                                {
+                                                    <span class="star @(i <= clientRating ? "filled" : "")">&#9733;</span>
+                                                }
+                                            </div>
+                                        }
+                                        <p>@client.Description</p>
+
+                                    </div>
+                                    <div class="col-md-3 col-xl-3 col-lg-3 col-12 order-md-2 order-1">
+                                        <img alt="slide" class="mx-auto" src="@client.LocalImage">
+                                    </div>
+                                    <div class="col-md-1 col-xl-1 col-lg-1 col-12 order-md-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <a href="#myCarousel" role="button" data-slide="prev" class="carousel-control-prev">
+                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#myCarousel" role="button" data-slide="next" class="carousel-control-next">
+                <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="banner-3"></div>
+</section>
+
+
+

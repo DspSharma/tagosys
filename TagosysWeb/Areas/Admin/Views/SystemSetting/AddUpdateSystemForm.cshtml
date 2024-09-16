@@ -1,0 +1,140 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.SystemsettingOutput;
+
+@{
+    var system = ViewData["systemEdit"] as SystemsettingOutput;
+    int id = system != null ? system.Id : 0;
+}
+
+
+
+<section class="content container-fluid">
+    <div class="box box-info">
+        <div class="box-header with-border bg-light">
+           
+               
+           
+                <h3 class="box-title">System-Setting</h3>
+           
+
+            <hr />
+        </div>
+
+        <form class="form-horizontal" method="POST" action="~/Admin/SystemSetting/AddUpdateSystemSetting" onsubmit="return addUpdateSystemSetting()" enctype="multipart/form-data">
+            <input type="hidden" name="Id" value="@system?.Id">
+            <div class="box-body">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Name</label>
+                        <div class="col-sm-8">
+                            <input type="text" id="name" name="Name" class="form-control" value="@system?.Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Email</label>
+                        <div class="col-sm-8">
+                            <input type="email" id="email" name="Email" class="form-control" value="@system?.Email">
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">ContactNo</label>
+                        <div class="col-sm-8">
+                            <input type="text" id="mobile" name="Mobile" class="form-control" value="@system?.Mobile">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">MapUrl</label>
+                        <div class="col-sm-8">
+                            <input type="url" id="mapUrl" name="MapUrl" class="form-control" value="@system?.MapUrl">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">RegisteredOfficeAddress</label>
+                        <div class="col-sm-8">
+                            <textarea id="registeredOfficeAddress" name="RegisteredOfficeAddress" class="form-control" rows="2">@system?.RegisteredOfficeAddress</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">OperationalOfficeAddress</label>
+                        <div class="col-sm-8">
+                            <textarea id="operationalOfficeAddress" name="OperationalOfficeAddress" class="form-control" rows="2">@system?.OperationalOfficeAddress</textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">FacebookUrl</label>
+                        <div class="col-sm-8">
+                            <input type="url" id="facebookUrl" name="FacebookUrl" class="form-control" value="@system?.FacebookUrl">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">InstagramUrl</label>
+                        <div class="col-sm-8">
+                            <input type="url" id="instagramUrl" name="InstagramUrl" class="form-control" value="@system?.InstagramUrl">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label"> TwitterUrl</label>
+                        <div class="col-sm-8">
+                            <input type="url" id="twitterUrl" name="TwitterUrl" class="form-control" value="@system?.TwitterUrl">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">YouTubeUrl</label>
+                        <div class="col-sm-8">
+                            
+
+                            <input type="url" class="form-control" id="youTubeUrl" name="YouTubeUrl" value="@system?.YouTubeUrl">
+                            
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                @*<div class="col-sm-6">
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Logo</label>
+                        <div class="col-sm-8">
+                            <input type="hidden" class="form-control" id="imagefiles" name="Logo" placeholder="Image" value="@system?.Logo">
+                            @await Component.InvokeAsync("ImageUploadPopup")
+                            <img id="blah" src="@system?.LocalImage" onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@system?.LocalImage'; }" alt="your image" style="height:150px;" />
+                        </div>
+                    </div>
+                </div>*@
+
+            </div>
+            <div class="box-footer">
+                <button class="btn btn-primary waves-effect waves-light pull-right " id="btn-submit">Save</button>
+            </div>
+        </form>
+    </div>
+</section>
+<script>
+    let oldImage = "@system?.Logo";
+</script>
+@await Component.InvokeAsync("Toaster")
+

@@ -1,0 +1,22 @@
+﻿@using TagosysWeb.Core.DTO.DtoOutput;
+@{
+    var project = ViewData["projectData"] as List<ProjectOutput>;
+
+}
+
+@foreach (var projectData in project)
+{
+    <div class="col-xl-3 col-md-3 col-xl-3 col-xs-3 col-sm-4 col-6">
+        <div class="bg-slider active">
+
+            <div class="data-slide-content ">
+                <i>
+                    <img style="width: 50%;"
+                         src="@projectData.LocalImage">
+                </i>
+                <h6>@projectData.ProjectName</h6>
+            </div>
+        </div>
+        <!---->
+    </div>
+}

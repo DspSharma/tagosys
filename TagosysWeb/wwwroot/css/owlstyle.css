@@ -1,0 +1,27 @@
+.owl-loaded{
+    position:relative !important;
+}
+.team .owl-next{
+    position: absolute;
+    top: 28%;
+    bottom: 61%;
+    right: -17px;
+    z-index: 999999999;
+}
+.team .owl-prev{
+    position: absolute;
+    top: 28%;
+    bottom: 61%;
+    left: -17px;
+    z-index: 999999999;
+}
+
+#forcecenteredd .owl-item img {
+    width: 100% !important;
+}
+/* .owl-nav{
+    display: none;
+}
+.owl-loaded:hover .owl-nav{ 
+    display: block !important;
+} */

@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.ProjectOutput;
+
+<section class="content-header">
+    <div>
+        <h1>
+            List of Project
+            <a class="btn btn-primary" href="~/Admin/Project/AddUpdateProjectForm/" style="float:right;"> Add Project</a>
+        </h1>
+    </div>
+</section>
+
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Project</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table id="About" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>ProjectName</th>
+                                    <th>ProjectUrl</th>
+                                    <th>Description </th>
+                                    <th>Image </th>
+                                    <th>IsActive</th>
+                                    <th>CreatedAt</th>
+                                    <th>UpdatedAt </th>
+                                    <th>Action </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var data in ViewData["projectList"] as List<ProjectOutput>)
+                                {
+                                    <tr>
+                                        <td>@data.Id</td>
+                                        <td>@data.ProjectName</td>
+                                        <td>@data.ProjectUrl</td>
+                                        <td>@data.Description</td>
+                                        <td>
+                                            <img src="@data.LocalImage"
+                                                 onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@data?.LocalImage'; }"
+                                                 style="width:20%;"
+                                                 alt="User Image"
+                                                 class="Td-image">
+                                        </td>
+                                        <td>
+                                            <select onchange="updateProjectStatus(@data.Id)">
+                                                @if (data.IsActive == true)
+                                                {
+                                                    <option value="Active" selected>Active</option>
+                                                    <option value="inActive">InActive</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Active">Active</option>
+                                                    <option value="inActive" selected>InActive</option>
+                                                }
+                                            </select>
+                                        </td>
+                                      
+                                        <td>@data.CreatedAt</td>
+                                        <td>@data.UpdatedAt</td>
+                                        <td>
+                                            <a class="btn btn-primary" href="~/Admin/Project/AddUpdateProjectForm/@data.Id">Edit/View</a>
+
+                                            <a class="btn btn-danger" href="~/Admin/Project/projectDeleteById/@data.Id"><i class="fa fa-trash"> </i> Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+              
+            </div>
+           
+        </div>
+       
+    </div>
+   
+</section>
+
+<script>
+    function updateProjectStatus(Id) {
+        window.location.href = "/../../Admin/Project/ActiveInActive/" + Id
+    }
+</script>
+@await Component.InvokeAsync("Toaster")

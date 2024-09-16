@@ -1,0 +1,273 @@
+﻿@*<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TAGOSYS-Software Company Jaipur India (Website in under construction)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Site Title" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tagosys.com/" />
+    <meta property="og:image" content="https://tagosys.com/assets/site-images/logo.png" />
+
+
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script src="~/js/toastr.js"></script>
+    <script src="~/js/validation.js"></script>
+
+    <style>
+        .section-title{
+            padding-top:75px!important;
+        }
+    </style>
+</head>
+
+<body>
+ 
+    <header class="">
+       
+        <div class="men-nev">
+            <div id="underdev" class="row" style="display:none;padding:0px!Important;margin:0px!important; background-color:lightgray;height:50px;width:100%;opacity:0.7">
+                <div class="col-sm-11" style="text-align:center;color:red">This site in under development mode. Some text and images that are not our proprietary. If anyone has issues with content of site please report to: tagosys@gmail.com. We will remove them.</div>
+                <div class="col-sm-1" style="padding:0px!Important;margin:0px!important;background-color:lightgray;"> <span style="float:right" onclick="document.getElementById('underdev').style.display='none';">Close(X)</span></div>
+            </div>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-inverse menu">
+                    <a class="navbar-brand" href="/index"><img src="/assets/site-images/logo.png" class="logo-image"></a>
+                    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+                            aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler first-button collapsed">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <div id="navbarSupportedContent20" class="main-navigation collapse navbar-collapse mynav">
+                        <ul class="main-navigation2 navbar-nav mr-auto nev-li-color menu-area-main">
+                            <li><a class="nav-link " href="~/Public/Home/index">Home </a></li>
+                           
+                            <li><a href="#about-section"
+                                    class="nav-link " href="/index">About </a></li>
+                            <li><a href="/#Services " class="nav-link ">
+                                    Services </a>
+                            </li>
+                           
+                            <li>
+                                <a class="nav-link " href="~/Public/Portfolio/Portfolio">Portfolio </a>
+                            </li>
+                            <li><a class="nav-link " href="/blog">Blog </a></li>
+                            <li><a class="nav-link " href="/Mobile-app">Mobile App </a></li>
+                            <li><a class="nav-link " href="/Team">Team </a></li>
+                            <li><a class="nav-link " href="/contact">Contact </a></li>
+
+                           
+                        </ul>
+                        <ul class="navbar-nav nev-li-color menu-area-main add-mobile-class Training-but">
+                             <button class="training-button" > <a href="https://tagoskills.com/"> Training </a></button> 
+                            <a>
+                                <form class="form-inline search-i my-2 my-lg-0"><input type="search" placeholder="Search" aria-label="Search" class="form-control"></form>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main role="main" >
+        @RenderBody()
+
+
+    </main>
+
+
+
+
+
+    <section class="container-fluid pt-2 pb-2">
+        <div class="row">
+            <div class="col-12 col-xl-12 col-lg-12">
+                
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-bg">
+        <div class="Windows container-fluid">
+            <div class="row">
+              
+                <div class="col-xl-4 col-lg-4 col-md-3 col-sm-6 col-12">
+                    <div class="c-heading-4 x-hidden-focus pb-2"><b> Our</b>
+                        Works </div>
+                    <ul class="footer-ul footer-ul-img">
+                        <li><img src="assets/site-images/footer-images/g1.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g2.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g3.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g4.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g5.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g6.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g7.jpg"></li>
+                        <li><img src="assets/site-images/footer-images/g8.jpg"></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                    <div class="c-heading-4 x-hidden-focus pb-2">
+                        <b>
+                            Latest
+                        </b>Info
+                    </div>
+                    <ul class="footer-ul">
+                        <li><a href="index"> Home </a></li>
+                        <li><a href="blog"> Blog </a></li>
+                        <li><a href="Mobile-app"> Mobile app </a></li>
+                        <li><a href="Portfolio"> Portfolio </a></li>
+                        <li><a href="Contact"> Contact </a></li>
+                         <li><a href="refundpolicy">Refund Policy</a></li>
+                         <li><a href="terms">Terms and Conditions</a></li>
+                         <li><a href="privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="c-heading-4 x-hidden-focus pb-2">
+                        <b>
+                            Contact
+                        </b>Information
+                    </div>
+                    <ul class="footer-ul">
+                        <li> Phone Number </li>
+                        <i aria-hidden="true" class="fa fa-phone">
+                           +91 <span id="mobile"> </span>
+                        </i>
+                        <li> Email Address</li>
+                        <i aria-hidden="true" class="fa fa-envelope">
+                            <span id="email"></span>
+                        </i>
+                        <li> Location</li>
+                        <span> <i aria-hidden="true" class="fa fa-map-marker"></i> <a href="http://maps.google.com"> Jaipur, INDIA. </a></span>
+                    </ul>
+                  
+                </div>
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="footer-ul-logo-img">
+                        <div class="c-heading-4 x-hidden-focus pb-2"><a href=""><img
+                                    src="assets/site-images/footer-images/logo-bottom.png" style="width: 50%;"></a>
+                        </div>
+                        <ul class="footer-ul">
+                            <li> TAGOSYS is a global offshore service provider<br> with a great team strength.</li>
+                            <li>
+                            <div class="bottom-icon1" > Follow tagosys
+                                   
+                                    <a href="" id="facebookUrlfooter"><img src="assets/site-images/footer-images/facebook.svg" class="bottom-icon"></a>
+                                    <a href="" id="twitterUrlfooter"><img src="assets/site-images/footer-images/twitter.svg" class="bottom-icon"></a>
+                                    <a href="" id="youTubeUrlfooter"><img src="assets/site-images/footer-images/youtube.svg" class="bottom-icon"></a>
+                                    <a href="" id="instagramUrlfooter"><img src="assets/site-images/footer-images/instagram.jpg" class="bottom-icon"></a>
+                                 
+                             </div>
+                             </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p class="c-uhff-lang-selector"><i aria-hidden="true" class="fa fa-renren"></i> Mail (India)</p>
+                </div>
+                <div class="col-6">
+                    <h6 style="text-align: right;">
+                        <ul class="bottom-last">
+                            <li>© 2018 TAGOSYS. All rights reserved | Website is under construction | Design by <b> TAGOSYS</b></li>
+                        </ul>
+                        <div><a href="" class="scrolltop right-position right-30 scroll-static"><i
+                                    class="fa fa-angle-up"></i></a></div>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/main.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.scrolltop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+                return false;
+            });
+            $('.nav-link').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 10) {
+                $('header').addClass('fixed');
+            } else {
+
+                $('header').removeClass();
+            }
+
+        });
+        $("header [href^='#']").click(function () {
+            id = $(this).attr("href")
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - 80
+            }, 2000);
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 10) {
+
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
+
+              $(document).ready(function () {
+        
+          $('.first-button').on('click', function () {
+          
+            $('.animated-icon1').toggleClass('open');
+          });
+          $('.second-button').on('click', function () {
+          
+            $('.animated-icon2').toggleClass('open');
+          });
+          $('.third-button').on('click', function () {
+          
+            $('.animated-icon3').toggleClass('open');
+          });
+          });
+      </script>
+      <script>
+          $(document).ready(function () {
+$('.first-button').on('click', function () {
+  $('.animated-icon1').toggleClass('open');
+});
+$('.second-button').on('click', function () {
+
+  $('.animated-icon2').toggleClass('open');
+});
+$('.third-button').on('click', function () {
+
+  $('.animated-icon3').toggleClass('open');
+});
+}); </script>
+</body>
+
+</html>
+*@

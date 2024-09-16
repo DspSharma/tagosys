@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.ContactOutput;
+
+<section class="content-header">
+    <div>
+        <h1>
+            List of Contact
+           
+        </h1>
+    </div>
+</section>
+
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Contact</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table id="About" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Email </th>
+                                    <th>Subject </th>
+                                    <th>Message</th>
+                                    <th>CreatedAt</th>
+                                    <th>UpdatedAt </th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var data in ViewData["contactList"] as List<ContactOutput>)
+                                {
+                                    <tr>
+                                        <td>@data.Id</td>
+                                        <td>@data.Name</td>
+                                        <td>@data.Email</td>
+                                        <td>@data.Subject</td>
+                                        <td>@data.Message</td>
+                                       
+
+                                        <td>@data.CreatedAt</td>
+                                        <td>@data.UpdatedAt</td>
+                                       
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+

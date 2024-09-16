@@ -1,0 +1,163 @@
+﻿@*@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="">
+    @Html.Partial("Shared/PartialView/_HomePageBanner")
+
+    <div class="container-fluid">
+
+        <section class="Windows">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="assets/site-images/home-image/seo-icon.png">
+                    <div>Dynamic CMS</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="assets/site-images/home-image/web-design-icon.png">
+                    <div>Web Development</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="assets/site-images/home-image/web-development-icon.png">
+                    <div>App Development</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 large-icon">
+                    <img class="large-icon1"
+                         src="assets/site-images/home-image/application-development-icon.png">
+                    <div>Maintenance</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+            </div>
+        </section>
+    </div>
+    <div class="">
+        <div class="container-fluid">
+            <section id="about-section" class="Windows img-h2">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 for-work"> <span> About us </span> </div>
+                    <div class="col-xl-12 col-md-12 col-12">
+
+                        @await Component.InvokeAsync("About")
+
+                       
+
+
+                    </div>
+                </div>
+        </div>
+        </section>
+    </div>
+</div>
+
+
+@await Component.InvokeAsync("Client")
+
+
+<div class="container-fluid">
+    <section id="Services" class="Windows">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12 for-work"> <span> Services </span> </div>
+            <div class="col-xl-12 col-md-12 col-12 ">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 img-h2 padding-bottom d-flex">
+                        <div class="box-bg box-bg-shadow">
+                            <img class="" src="assets/site-images/home-image/Services/Mobile-Apps.jpg">
+                            <div class="box-about">
+                                <h3 class="c-heading-in">Mobile Apps</h3>
+                                <div class="c-paragraph">
+                                    <p>We have a core team of Native and Hybrid mobile app developers.</p>
+                                </div>
+                                <div class="c-group">
+                                    <a href="mobile-ios-app"
+                                       class="c-call-to-action1 c-glyph1">
+                                        <span>
+                                            Read more <i aria-hidden="true" class="fa fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 img-h2 padding-bottom d-flex">
+                        <div class="box-bg box-bg-shadow">
+                            <img class="" src="assets/site-images/home-image/Services/Website-and-API-Development.jpg">
+                            <div class="box-about">
+                                <h3 class="c-heading-in">Website and API Development</h3>
+                                <div class="c-paragraph">
+                                    <p>
+                                        We have a big core team of backend development for websites and APIs.
+                                    </p>
+                                </div>
+                                <div class="c-group">
+                                    <a href="website-and-api-development"
+                                       class="c-call-to-action1 c-glyph1">
+                                        <span>
+                                            Read more <i aria-hidden="true" class="fa fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 img-h2 padding-bottom d-flex">
+                        <div class="box-bg box-bg-shadow">
+                            <img class="" src="assets/site-images/home-image/Services/Digital-Marketing.jpg">
+                            <div class="box-about">
+                                <h3 class="c-heading-in">Digital Marketing</h3>
+                                <div class="c-paragraph">
+                                    <p>
+                                        We have a team of digital marketers that are expert to spread our
+                                        services to social and other digital platforms.
+                                    </p>
+                                </div>
+                                <div class="c-group">
+                                    <a href="digital-marketing"
+                                       class="c-call-to-action1 c-glyph1">
+                                        <span>
+                                            Read more <i aria-hidden="true" class="fa fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 img-h2 padding-bottom d-flex">
+                        <div class="box-bg box-bg-shadow">
+                            <img class="" src="assets/site-images/home-image/Services/Web_PortalDesigning_Servicess.jpg">
+                            <div class="box-about">
+                                <h3 class="c-heading-in">Responsive Web Design Services</h3>
+                                <div class="c-paragraph">
+                                    <p>
+                                        We understand the mobile-first world. Our graphic designers have the
+                                        capability of featuring websites over desktop, smartphones and tablets alike with responsive
+                                        website design services.
+                                    </p>
+                                </div>
+                                <div class="c-group">
+                                    <a href="responsive-web-design-services"
+                                       class="c-call-to-action1 c-glyph1">
+                                        <span>
+                                            Read more <i aria-hidden="true" class="fa fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+@await Component.InvokeAsync("Project")
+
+</div>
+*@

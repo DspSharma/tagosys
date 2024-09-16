@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.PageOutput
+
+@{
+    var pageId = ViewData["pageData"] as PageOutput;
+    int id = pageId != null ? pageId.Id : 0;
+
+}
+
+
+<section class="content container-fluid">
+
+    <div class="box box-info">
+        <div class="box-header with-border">
+            @if (id != 0)
+                {
+                <h3 class="box-title">Update</h3>
+                }
+                else
+                {
+                <h3 class="box-title">Add Page</h3>
+
+                }
+
+        </div>
+
+        <form class="form-horizontal" method="post" action="/Admin/Page/AddUpdatePage" onsubmit="return addUpdatePage()">
+
+
+            <div class="box-body">
+                <input type="hidden" name="Id" value="@pageId?.Id">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Tittle</label>
+                    <div class="col-sm-10">
+
+                        <input type="text" class="form-control" id="tittle" name="Tittle" placeholder="Tittle" value="@pageId?.Tittle">
+                    </div>
+                </div>
+            </div>
+            <div class="box-footer">
+
+                <button type="submit" class="btn btn-info pull-right">Save</button>
+            </div>
+
+        </form>
+    </div>
+
+</section>
+@await Component.InvokeAsync("Toaster")
+

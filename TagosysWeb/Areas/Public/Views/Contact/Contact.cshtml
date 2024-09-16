@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Areas/Public/Views/Shared/_Layout.cshtml";
+}
+
+
+    
+<section class="breadcrumbs">
+    <div class="container">
+        <ol>
+            <li><a href="~/Public/Home/index">Home</a></li>
+            <li>Contact</li>
+        </ol>
+
+    </div>
+</section>
+@Html.Partial("~/Areas/Public/Views/Shared/PartialView/_contact.cshtml")
+
+<div style="background:#ececec;">
+    <div id="map-container-google-1" class="z-depth-1-half map-container">
+        <iframe id="contactMapUrl" src=""
+                frameborder="0" allowfullscreen="" style="width: 100%; height: 400px;"></iframe>
+    </div>
+</div>
+
+
+@await Component.InvokeAsync("Project")

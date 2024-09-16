@@ -1,0 +1,66 @@
+﻿
+
+<div>
+
+    <!-- PopUp Box Start -->
+    <button type="button" class="btn btn-primary mb-2" id="uploadImageButton">Upload Image</button>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-xl modal-dialog-centered" style="min-width:60%;">
+            <div class="modal-content " style="height:30%;">
+                <div class="modal-header">
+                    <h5 class="modal-title">Upload Image</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="lightbox">
+                            <div class="row">
+
+
+                                <input type="file" style="width:60%;margin-left: 22%;" class="form-control" id="imagefile" name="ImageFile" placeholder="Image" onchange="readURL(this);">
+                                <img id="previousImage" src="" style="display: none; width: 120px; height: 90px;">
+
+
+                            </div>
+                            <div id="loading-spinner" class="spinner-border text-primary" role="status" style="display: none; margin-left:45%;margin-top:30px;">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnClose" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal" id="modalSubmitBtn">Save</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+
+    function readURL(input) {
+        // alert(0);
+        if (input.files && input.files[0]) {
+            // alert(1);
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                // alert(2);
+                $('#previousImage')
+                    .attr('src', e.target.result)
+                    .show();
+            };
+            reader.readAsDataURL(input.files[0]);
+
+        } else {
+            // alert(3);
+            $('#previousImage').hide();
+        }
+    }
+
+
+</script>
+
+

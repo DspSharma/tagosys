@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Areas/Public/Views/Shared/_Layout.cshtml";
+}
+@using TagosysWeb.Core.DTO.DtoOutput;
+
+@{
+    var blog = ViewData["blogData"] as List<PostOutput>;
+    var blogList = blog?.Where(post => post.PageName == "Blog").ToList();
+}
+
+<section class="breadcrumbs">
+    <div class="container">
+        <ol>
+            <li><a href="~/Public/Home/index"> Home</a></li>
+            <li>Blog</li>
+        </ol>
+
+    </div>
+</section>
+
+@if (blogList != null)
+{
+
+    <section id="blog" class="blog">
+        <div data-aos="fade-up" class="container">
+            @foreach (var postDescription in blogList)
+            {
+                <div class="row leftdiv ng-star-inserted">
+                    <div class="entry-img col-12 col-xl-6 col-md-6 odd">
+                        <div class="box-bg-shadow">
+                            <img alt=""
+                            class="tile-img tile-img1" src="@postDescription.LocalImage">
+                        </div>
+                    </div>
+                    <div class="entry-content col-12 col-xl-6 col-md-6 even">
+                        <div class="new_page">
+                            <span>
+                                <h2 class="entry-title">@postDescription.Tittle</h2>
+                                <p>@postDescription.ShortDescription</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+}
+@await Component.InvokeAsync("Project")

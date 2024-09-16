@@ -1,0 +1,1499 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\public\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\public\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\public\\views\\shared\\partialview\\_contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\public\\views\\shared\\partialview\\_contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\dbcontext\\tagosyswebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\dbcontext\\tagosyswebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\entities\\postdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\entities\\postdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\entities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\entities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.data\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A968387-5C62-4778-9709-EDD06384F10B}|TagosysWeb.Data\\TagosysWeb.Data.csproj|solutionrelative:tagosysweb.data\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\systemsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\systemsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\components\\imageuploadpopup\\imageuploadpopup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\components\\imageuploadpopup\\imageuploadpopup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\imagekitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\imagekitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\imagegallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\imagegallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B449D4-1A2B-4100-B159-FBC27714BC45}|TagosysWeb.Service\\TagosysWeb.Service.csproj|solutionrelative:tagosysweb.service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\shared\\partial\\adminmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\shared\\partial\\adminmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\wwwroot\\admin\\js\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\wwwroot\\admin\\js\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\page\\addupdatepageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\page\\addupdatepageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\public\\views\\components\\team\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\public\\views\\components\\team\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\public\\views\\components\\toaster\\toaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\public\\views\\components\\toaster\\toaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\viewcomponents\\toastrcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\viewcomponents\\toastrcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\post\\postlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\post\\postlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\post\\addupdatepostform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\post\\addupdatepostform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7695D795-7D18-4585-8564-8DA4773048C5}|TagosysWeb.Core\\TagosysWeb.Core.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.core\\models\\apiresponsemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7695D795-7D18-4585-8564-8DA4773048C5}|TagosysWeb.Core\\TagosysWeb.Core.csproj|solutionrelative:tagosysweb.core\\models\\apiresponsemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7695D795-7D18-4585-8564-8DA4773048C5}|TagosysWeb.Core\\TagosysWeb.Core.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb.core\\dto\\dtoinput\\clientinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7695D795-7D18-4585-8564-8DA4773048C5}|TagosysWeb.Core\\TagosysWeb.Core.csproj|solutionrelative:tagosysweb.core\\dto\\dtoinput\\clientinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\controllers\\systemsettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\controllers\\systemsettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\shared\\layout\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\shared\\layout\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\shared\\layout\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\shared\\layout\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\areas\\admin\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\areas\\admin\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\terms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\terms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\refundpolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\refundpolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\mobile-app.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\mobile-app.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\shared\\partialview\\_contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\shared\\partialview\\_contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\shared\\partialview\\_clientspeaksslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\shared\\partialview\\_clientspeaksslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\shared\\partialview\\_clientslideronpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\shared\\partialview\\_clientslideronpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\shared\\partialview\\_homepagebanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\shared\\partialview\\_homepagebanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\seo-optimization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\seo-optimization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\php.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\php.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\mobile-app-development.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\mobile-app-development.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\logo-design.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\logo-design.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\e-commerce.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\e-commerce.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\digital-marketing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\digital-marketing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\services\\cloud-services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\services\\cloud-services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\blog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\blog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\web-and-mobile-app.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\web-and-mobile-app.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\tagosysweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\tagosysweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\website-and-api-development.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\website-and-api-development.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\web-and-mobile-app.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\web-and-mobile-app.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\unique-and-impresive-designs.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\unique-and-impresive-designs.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\terms.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\terms.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\team.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\team.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\server-management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\server-management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\responsive-web-design-services.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\responsive-web-design-services.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\refundpolicy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\refundpolicy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\portfolio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\portfolio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\mobile-ios-app.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\mobile-ios-app.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\mobile-app.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\mobile-app.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\digital-marketing.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\digital-marketing.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\design-development.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\design-development.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|e:\\dotnet\\tagosyswebsite\\tagosysweb\\tagosysweb\\pages\\mobile-ios-app.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8995E5C0-2072-44F2-88D3-C5D6B51C5DE2}|TagosysWeb\\TagosysWeb.csproj|solutionrelative:tagosysweb\\pages\\mobile-ios-app.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_contact.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Shared\\PartialView\\_contact.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Public\\Views\\Shared\\PartialView\\_contact.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Shared\\PartialView\\_contact.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Public\\Views\\Shared\\PartialView\\_contact.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAuwFoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T14:04:56.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Contact\\Contact.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Public\\Views\\Contact\\Contact.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Contact\\Contact.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Public\\Views\\Contact\\Contact.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAawBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T14:04:10.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Post.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\Entities\\Post.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Post.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\Entities\\Post.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:40:44.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Page.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Page.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\Entities\\Page.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Page.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\Entities\\Page.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:40:23.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Team.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Team.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\Entities\\Team.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Team.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\Entities\\Team.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:39:57.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\Entities\\User.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\User.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\Entities\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:34:21.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Project.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\Entities\\Project.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Project.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\Entities\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:26:35.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tagosyswebContext.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\DBContext\\tagosyswebContext.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\DBContext\\tagosyswebContext.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\DBContext\\tagosyswebContext.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\DBContext\\tagosyswebContext.cs",
+              "ViewState": "AQIAAMMBAAAAAAAAAAAkwM8BAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:44:40.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Postdescription.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Postdescription.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Data\\Entities\\Postdescription.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Data\\Entities\\Postdescription.cs",
+              "RelativeToolTip": "TagosysWeb.Data\\Entities\\Postdescription.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T09:40:53.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\TeamService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\TeamService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\TeamService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\TeamService.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAuwEQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:30:09.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "TagosysWeb\\appsettings.json",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\appsettings.json",
+              "RelativeToolTip": "TagosysWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-17T11:18:32.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\ImageService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\ImageService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\ImageService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\ImageService.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAkwJ4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-07T07:01:21.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddUpdatePageForm.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Page\\AddUpdatePageForm.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Page\\AddUpdatePageForm.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Page\\AddUpdatePageForm.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Page\\AddUpdatePageForm.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T13:54:29.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-30T13:00:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ImageKitService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\ImageKitService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\ImageKitService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\ImageKitService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\ImageKitService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswEMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T12:48:12.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Startup.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Startup.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Startup.cs",
+              "RelativeToolTip": "TagosysWeb\\Startup.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAIwHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T11:18:43.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "TagosysWeb\\ScaffoldingReadMe.txt",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "TagosysWeb\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-15T07:33:00.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\UserService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\UserService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\UserService.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwD8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:12:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Program.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Program.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Program.cs",
+              "RelativeToolTip": "TagosysWeb\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T11:17:09.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\ClientService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\ClientService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\ClientService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\ClientService.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAwwHcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-04T05:31:36.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ImageUploadPopup.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Components\\ImageUploadPopup\\ImageUploadPopup.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Components\\ImageUploadPopup\\ImageUploadPopup.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Components\\ImageUploadPopup\\ImageUploadPopup.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Components\\ImageUploadPopup\\ImageUploadPopup.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T06:48:52.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SystemSettingService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\SystemSettingService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\SystemSettingService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\SystemSettingService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\SystemSettingService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:30:37.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T09:13:09.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T12:14:16.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "postList.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Post\\postList.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Post\\postList.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Post\\postList.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Post\\postList.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAwwFUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-01T09:08:17.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ToastrComponent.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\ViewComponents\\ToastrComponent.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\ViewComponents\\ToastrComponent.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\ViewComponents\\ToastrComponent.cs",
+              "RelativeToolTip": "TagosysWeb\\ViewComponents\\ToastrComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T11:58:02.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ImageGalleryController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\ImageGalleryController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\ImageGalleryController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\ImageGalleryController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\ImageGalleryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T05:42:32.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Toaster.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Components\\Toaster\\Toaster.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Public\\Views\\Components\\Toaster\\Toaster.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Components\\Toaster\\Toaster.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Public\\Views\\Components\\Toaster\\Toaster.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-06T12:02:27.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Components\\Team\\Team.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Public\\Views\\Components\\Team\\Team.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Public\\Views\\Components\\Team\\Team.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Public\\Views\\Components\\Team\\Team.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-06T12:06:12.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\PostService.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Service\\PostService.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Service\\PostService.cs",
+              "RelativeToolTip": "TagosysWeb.Service\\PostService.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-04T07:12:44.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "validation.js",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\wwwroot\\admin\\js\\validation.js",
+              "RelativeDocumentMoniker": "TagosysWeb\\wwwroot\\admin\\js\\validation.js",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\wwwroot\\admin\\js\\validation.js",
+              "RelativeToolTip": "TagosysWeb\\wwwroot\\admin\\js\\validation.js",
+              "ViewState": "AQIAABcBAAAAAAAAAAAAACIBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-12-06T12:13:24.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminMenu.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Shared\\partial\\AdminMenu.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Shared\\partial\\AdminMenu.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Shared\\partial\\AdminMenu.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Shared\\partial\\AdminMenu.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T13:53:07.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\TeamController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\TeamController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T12:00:21.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddUpdatePostForm.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Post\\AddUpdatePostForm.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Post\\AddUpdatePostForm.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Post\\AddUpdatePostForm.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Post\\AddUpdatePostForm.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-01T05:26:56.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PageController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\PageController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\PageController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\PageController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\PageController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwEgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T05:22:43.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApiResponseModels.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Core\\Models\\ApiResponseModels.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Core\\Models\\ApiResponseModels.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Core\\Models\\ApiResponseModels.cs",
+              "RelativeToolTip": "TagosysWeb.Core\\Models\\ApiResponseModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T08:55:13.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ClientInput.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Core\\DTO\\DtoInput\\ClientInput.cs",
+              "RelativeDocumentMoniker": "TagosysWeb.Core\\DTO\\DtoInput\\ClientInput.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb.Core\\DTO\\DtoInput\\ClientInput.cs",
+              "RelativeToolTip": "TagosysWeb.Core\\DTO\\DtoInput\\ClientInput.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T05:46:30.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-30T13:54:51.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SystemSettingController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\SystemSettingController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Controllers\\SystemSettingController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Controllers\\SystemSettingController.cs",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Controllers\\SystemSettingController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-30T13:54:37.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_LayoutAdmin.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAH4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T13:47:42.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_AuthLayout.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_AuthLayout.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Shared\\Layout\\_AuthLayout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAwwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T12:52:52.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TagosysWeb\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TagosysWeb\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-17T11:21:05.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Areas\\Admin\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwCcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T12:14:13.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Terms.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Terms.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Terms.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Terms.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Terms.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T05:38:40.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Privacy.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAwwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-29T11:13:02.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ClientSpeaksslider.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_ClientSpeaksslider.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Shared\\partialview\\_ClientSpeaksslider.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_ClientSpeaksslider.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Shared\\partialview\\_ClientSpeaksslider.cshtml",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAcwK0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-24T12:59:15.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Blog.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Blog.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Blog.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Blog.cshtml",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAwwGsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-17T11:46:22.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RefundPolicy.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\RefundPolicy.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\RefundPolicy.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\RefundPolicy.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\RefundPolicy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-29T10:50:00.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Mobile-app.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Mobile-app.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Mobile-app.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Mobile-app.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Mobile-app.cshtml",
+              "ViewState": "AQIAALIAAAAAAAAAAADwv8AAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-23T11:20:39.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_contact.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_contact.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Shared\\partialview\\_contact.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_contact.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Shared\\partialview\\_contact.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAwwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-23T11:40:05.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_Clientslideronpage.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_Clientslideronpage.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Shared\\partialview\\_Clientslideronpage.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_Clientslideronpage.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Shared\\partialview\\_Clientslideronpage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T05:56:45.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Contact.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-23T09:45:28.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-17T11:46:47.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Team.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Team.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Team.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Team.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T05:37:27.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Portfolio.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Portfolio.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Portfolio.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Portfolio.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Portfolio.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T05:35:13.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Index.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAIsAAAAAAAAAAADwv6IAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-17T12:12:25.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Contact.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Contact.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:13:42.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_HomePageBanner.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_HomePageBanner.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Shared\\partialview\\_HomePageBanner.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\partialview\\_HomePageBanner.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Shared\\partialview\\_HomePageBanner.cshtml",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAwwHgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T05:31:09.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "seo-Optimization.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\seo-Optimization.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\seo-Optimization.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\seo-Optimization.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\seo-Optimization.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:48.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TagosysWeb\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T12:01:39.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\WeatherForecast.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\WeatherForecast.cs",
+              "RelativeToolTip": "TagosysWeb\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T11:19:04.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Logo-Design.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Logo-Design.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\Logo-Design.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Logo-Design.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\Logo-Design.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:36.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Mobile-App-Development.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Mobile-App-Development.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\Mobile-App-Development.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Mobile-App-Development.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\Mobile-App-Development.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:39.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Services.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\Services.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Services.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\Services.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:53.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "E-Commerce.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\E-Commerce.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\E-Commerce.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\E-Commerce.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\E-Commerce.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:31.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Digital-Marketing.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Digital-Marketing.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\Digital-Marketing.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Digital-Marketing.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\Digital-Marketing.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:27.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:08.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:05.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T11:29:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PHP.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\PHP.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\PHP.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\PHP.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\PHP.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T10:49:16.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Cloud-Services.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Cloud-Services.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\services\\Cloud-Services.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\services\\Cloud-Services.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\services\\Cloud-Services.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T10:49:06.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Blog.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Blog.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Blog.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Blog.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Blog.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:10:51.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "web-and-mobile-app.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\web-and-mobile-app.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\web-and-mobile-app.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\web-and-mobile-app.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\web-and-mobile-app.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-28T10:29:24.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "TagosysWeb.csproj",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\TagosysWeb.csproj",
+              "RelativeDocumentMoniker": "TagosysWeb\\TagosysWeb.csproj",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\TagosysWeb.csproj",
+              "RelativeToolTip": "TagosysWeb\\TagosysWeb.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-11-23T08:48:36.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "unique-and-impresive-designs.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\unique-and-impresive-designs.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\unique-and-impresive-designs.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\unique-and-impresive-designs.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\unique-and-impresive-designs.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:36.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "web-and-mobile-app.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\web-and-mobile-app.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\web-and-mobile-app.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\web-and-mobile-app.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\web-and-mobile-app.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:41.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "website-and-api-development.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\website-and-api-development.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\website-and-api-development.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\website-and-api-development.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\website-and-api-development.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:45.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Terms.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Terms.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Terms.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Terms.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Terms.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:30.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Team.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Team.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Team.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Team.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Team.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:25.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Server-Management.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Server-Management.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Server-Management.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Server-Management.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Server-Management.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "responsive-web-design-services.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\responsive-web-design-services.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\responsive-web-design-services.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\responsive-web-design-services.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\responsive-web-design-services.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:14.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "RefundPolicy.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\RefundPolicy.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\RefundPolicy.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\RefundPolicy.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\RefundPolicy.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:15:08.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:14:46.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Portfolio.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Portfolio.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Portfolio.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Portfolio.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Portfolio.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:14:42.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "mobile-ios-app.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\mobile-ios-app.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\mobile-ios-app.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\mobile-ios-app.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\mobile-ios-app.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:14:37.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Mobile-app.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Mobile-app.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Mobile-app.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Mobile-app.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Mobile-app.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:14:32.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:14:21.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Error.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Error.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:14:00.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "digital-marketing.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\digital-marketing.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\digital-marketing.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\digital-marketing.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\digital-marketing.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:13:55.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "design-development.cshtml.cs",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\design-development.cshtml.cs",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\design-development.cshtml.cs",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\design-development.cshtml.cs",
+              "RelativeToolTip": "TagosysWeb\\Pages\\design-development.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T10:13:47.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "mobile-ios-app.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\mobile-ios-app.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\mobile-ios-app.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\mobile-ios-app.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\mobile-ios-app.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T05:28:29.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "TagosysWeb\\Pages\\Error.cshtml",
+              "ToolTip": "E:\\dotnet\\tagosyswebsite\\TagosysWeb\\TagosysWeb\\Pages\\Error.cshtml",
+              "RelativeToolTip": "TagosysWeb\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T06:13:19.631Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

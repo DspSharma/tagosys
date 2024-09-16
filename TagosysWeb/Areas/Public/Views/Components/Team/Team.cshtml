@@ -1,0 +1,113 @@
+﻿@using TagosysWeb.Core.DTO.DtoOutput;
+@{
+    var team = ViewData["teamData"] as List<TeamOutput>;
+    var t = team;
+}
+
+<link rel="stylesheet" href="~/css/owlstyle.css" />
+<link rel="stylesheet" href="~/css/owl-slider-css/owl.carousel.min.css" />
+<link rel="stylesheet" href="~/css/owl-slider-css/owl.theme.default.min.css" />
+
+<script src="~/css/owl-slider-css/js/highlight.js"> </script>
+<script src="~/css/owl-slider-css/js/jquery.min.js"> </script>
+<script src="~/css/owl-slider-css/js/owl.carousel.min.js"> </script>
+
+
+<div class="bg-contact">
+    <div class=" team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Team</h2>
+                <p>
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                    fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
+                    suscipit alias ea.
+                </p>
+            </div>
+
+            <div id="forcecenteredd" class="owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transform: translate3d(-1545px, 0px, 0px); transition: all 0.25s ease 0s; width: 4636px;">
+                        @foreach (var teamData in team)
+                        {
+                            <div class="owl-item active" style="width: 386.333px;">
+                                <div class="item">
+                                    <div class="c d-flex align-items-stretch ng-star-inserted">
+                                        <div data-aos="fade-up" data-aos-delay="100" class="member aos-init aos-animate" style="width:100%;">
+                                            <div class="member-img">
+                                                <img style="height:260px;" src="@teamData.LocalImage"
+                                                     onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@teamData?.LocalImage'; }">
+                                            </div>
+                                            <div class="member-info">
+                                                <h4>@teamData.Name</h4><span>@teamData.Designation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="owl-nav">
+                    <button type="button" role="presentation" class="owl-prev">
+                        <span aria-label="Previous">‹</span>
+                    </button>
+                    <button type="button" role="presentation" class="owl-next">
+                        <span aria-label="Next">›</span>
+                    </button>
+                </div>
+                <div class="owl-dots"></div>
+            </div>
+
+            @section scripts {
+                <script>
+                    $(document).ready(function () {
+                        $("#forcecenteredd").owlCarousel({
+                            items: 3,
+                            loop: true,
+                            margin: 10,
+                            nav: true,
+                            dots: true,
+                            autoplay: true, 
+                            autoplayTimeout: 3000, 
+                        });
+                    });
+                </script>
+            }
+
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    jQuery("#forcecenteredd").owlCarousel({
+        autoplay: true,
+        lazyLoad: true,
+        loop: true,
+        nav: true,
+        dots: false,
+        autoplay: false,
+        center: false,
+        responsiveClass: true,
+        margin: 20,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 4
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>

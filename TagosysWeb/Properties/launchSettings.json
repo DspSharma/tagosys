@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "TagosysWeb": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://192.168.0.29:5005"
+      // "applicationUrl": "https://localhost:53934;http://localhost:53936"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/Layout/_LayoutAdmin.cshtml";
+}
+
+@using TagosysWeb.Core.DTO.DtoOutput;
+@model TagosysWeb.Core.DTO.DtoOutput.ClientOutput;
+
+@{
+    var client = ViewData["clientData"] as ClientOutput;
+    int id = client != null ? client.Id : 0;
+}
+
+@{
+    var Rating = new[]
+    {
+       "1","2","3","4","5"
+    };
+}
+
+<section class="content container-fluid">
+    <div class="card">
+        <div class="card-header">
+            @if (id != 0)
+            {
+                <h3 class="card-title">client Page-Update</h3>
+            }
+            else
+            {
+                <h3 class="card-title">Create New client</h3>
+            }
+        </div>
+        <form class="card-body" method="post" action="~/Admin/Client/AddUpdateClient" onsubmit="return addUpdateClient()" enctype="multipart/form-data">
+            <input type="hidden" name="Id" value="@client?.Id">
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="name" class="col-form-label col-sm-2">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" name="Name" placeholder="Name" value="@client?.Name">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label for="tittle" class="col-form-label col-sm-2">Country</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="country" name="Country" placeholder="Country" value="@client?.Country">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="name" class="col-form-label col-sm-2">Tittle</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="tittle" name="Tittle" placeholder="Tittle" value="@client?.Tittle">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label for="tittle" class="col-form-label col-sm-2">Description</label>
+                    <div class="col-sm-10">
+                        <textarea id="description" name="Description" class="form-control" rows="2">@client?.Description</textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+
+                <div class="col-sm-6">
+                    <label for="name" class="col-form-label col-sm-2">Rating</label>
+                    <div class="col-sm-10">
+                        <select id="rating" name="Rating" style="width: 100%" required>
+                            <option value="">Select Rating</option>
+                            @foreach (var rating in Rating)
+                            {
+                                <option value="@rating" @(client?.Rating == rating ? "selected" : "")>@rating</option>
+
+                            }
+                        </select>
+                      @*  <input type="text" class="form-control" id="rating" name="Rating" placeholder="Rating" value="@client?.Rating">*@
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="imagefiles" class="col-form-label col-sm-2">Image</label>
+                    <div class="col-sm-10">
+                        <input type="hidden" class="form-control" id="imagefiles" name="Image" placeholder="Image" value="@client?.Image" >
+                        @await Component.InvokeAsync("ImageUploadPopup")
+                        <img id="blah" src="@client?.LocalImage" onerror="if (!this.errorHandled) { this.errorHandled = true; this.src = '@client?.LocalImage'; }" alt="your image" style="height:150px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-info float-left">Save</button>
+            </div>
+        </form>
+    </div>
+</section>
+@await Component.InvokeAsync("Toaster")
+<script>
+    let oldImage = "@client?.Image";
+</script>
